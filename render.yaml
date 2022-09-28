@@ -6,3 +6,4 @@ services:
     region: frankfurt # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: master # optional (defaults to master)
+    startCommand: node ./app.js

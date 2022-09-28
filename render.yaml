@@ -6,6 +6,7 @@ services:
     region: frankfurt # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: main # optional (defaults to master)
+    buildCommand: npm i
     startCommand: node ./app.js
     envVars:
     - key: PORT

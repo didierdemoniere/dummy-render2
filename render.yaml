@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: dummy
+    env: node
+    repo: https://github.com/didierdemoniere/dummy-render.git # optional
+    region: frankfurt # optional (defaults to oregon)
+    plan: free # optional (defaults to starter)
+    branch: master # optional (defaults to master)

@@ -7,3 +7,6 @@ services:
     plan: free # optional (defaults to starter)
     branch: master # optional (defaults to master)
     startCommand: node ./app.js
+     envVars:
+    - key: PORT
+      value: 10000
